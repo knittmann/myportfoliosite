@@ -1,0 +1,153 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #263238;
+    margin: 0 10%;
+}
+
+h1 {
+    display: block;
+    font-size: 26px;
+    font-weight: 700;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Redressed', cursive;
+}
+
+h2 {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-block-start: 0.83sem;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+div {
+    display: block;
+}
+
+p {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.color-label {
+
+}
+
+.rose {
+    background-color: #E7717D;
+    color: #fff;
+}
+
+.light-blue {
+    background-color: #C2CAD0;
+    color: #000;
+}
+
+.light-tan {
+    background-color: #C2B9B0;
+    color: #000;
+}
+
+.brown {
+    background-color: #7E685A;
+    color: #fff;
+}
+
+.light-green {
+    background-color: #AFD275;
+    color: #000;
+}
+
+.cyan-light {
+    background-color: #5ddef4;
+}
+
+.cyan {
+    background-color: #00acc1;
+}
+
+.cyan-dark {
+    background-color: #007c91;
+    color: #fff;
+}
+
+.corral-light {
+    background-color: #ff867c;
+}
+
+.corral {
+    background-color: #ef5350;
+    color: #fff;
+}
+
+.corral-dark {
+    background-color: #b61827;
+    color: #fff;
+}
+
+.gray-dark {
+    background-color: #263238;
+    color: #fff;
+}
+
+.font-container {
+    width: 100%
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.redressed-font {
+    font-family: 'Redressed', cursive;
+}
+
+.quicksand-font {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.text-container {
+    width: 100%;
+}
