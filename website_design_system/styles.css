@@ -58,7 +58,7 @@ p {
 }
 
 .color-label {
-
+    font-weight: 600;
 }
 
 .rose {
@@ -87,29 +87,29 @@ p {
 }
 
 .cyan-light {
-    background-color: #5ddef4;
+    background-color: rgb(93, 222, 244);
 }
 
 .cyan {
-    background-color: #00acc1;
+    background-color: rgb(0, 172, 193);
 }
 
 .cyan-dark {
-    background-color: #007c91;
+    background-color: rgb(0, 124, 145);
     color: #fff;
 }
 
 .corral-light {
-    background-color: #ff867c;
+    background-color: #FF867C;
 }
 
 .corral {
-    background-color: #ef5350;
+    background-color: #EF5350;
     color: #fff;
 }
 
 .corral-dark {
-    background-color: #b61827;
+    background-color: #B61827;
     color: #fff;
 }
 
