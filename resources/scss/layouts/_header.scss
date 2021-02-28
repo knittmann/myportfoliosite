@@ -1,0 +1,25 @@
+.navbar {
+    background-color: $maroon-dark;
+    font-family: $roboto-stack;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+  }
+
+.nav-pills {
+    .nav-link {
+        color: white;
+        background: $maroon-dark;
+        border: 0;
+        //@include border-radius($nav-pills-border-radius);
+    }
+  
+    .nav-link.active,
+    .show > .nav-link {
+        color: $maroon-light;
+        //@include gradient-bg($nav-pills-link-active-bg);
+    }
+}

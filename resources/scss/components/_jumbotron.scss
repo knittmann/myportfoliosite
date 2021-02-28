@@ -1,0 +1,32 @@
+.jumbotron-container {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+
+.jumbotron-container::before {
+	position: absolute;
+	content: '';
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(81, 47, 30, 0.5);
+}
+
+.project-jumbotron {
+	background-image: url(https://imgur.com/8ajtvMC.png);
+}
+
+.resume-jumbotron {
+	background-image: url(https://imgur.com/RT3DZC4.png);
+}
+
+.jumbotron-content {
+	position: relative;
+}
+
+.jumbotron-header {
+	font-weight: bold;
+	font-size: 30px;
+}

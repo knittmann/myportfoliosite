@@ -1,0 +1,30 @@
+
+// FONTS
+$roboto-stack: 'Roboto Slab', serif;
+$ruda-stack: Ruda, sans-serif;
+
+// Colors
+$gray-dark: #263238;
+$maroon-dark: #462429;
+$maroon-medium: #7e4950;
+$maroon-light: #c37d86;
+
+// GENERAL
+$enable-shadows: true;
+$link-color:  $maroon-medium;
+$bg-dark: $maroon-dark;
+
+$card-bg: $maroon-medium;
+
+// NAVBAR VARIABLES
+$navbar-dark-color: $maroon-dark;
+$navbar-dark-hover-color: $maroon-medium;
+$navbar-dark-active-color: white;
+$navbar-dark-disabled-color: rgba(white, .25);
+$navbar-dark-toggler-border-color: $maroon-dark;
+
+// ACCORDION VARIABLES
+$accordion-button-color: white;
+$accordion-button-bg: $maroon-dark;
+$accordion-button-active-color: white;
+$accordion-button-active-bg: $maroon-dark;

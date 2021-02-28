@@ -1,0 +1,91 @@
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Ruda, sans-serif;
+}
+
+a {
+  color: #7e4950;
+}
+
+.jumbotron-container {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.jumbotron-container::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(81, 47, 30, 0.5);
+}
+
+.project-jumbotron {
+  background-image: url(https://imgur.com/8ajtvMC.png);
+}
+
+.resume-jumbotron {
+  background-image: url(https://imgur.com/RT3DZC4.png);
+}
+
+.jumbotron-content {
+  position: relative;
+}
+
+.jumbotron-header {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#language-accordion {
+  font-family: "Roboto Slab", serif;
+}
+
+.accordion-button {
+  background-color: #462429;
+  color: white;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #462429;
+  color: white;
+}
+
+.navbar {
+  background-color: #462429;
+  font-family: "Roboto Slab", serif;
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.nav-pills .nav-link {
+  color: white;
+  background: #462429;
+  border: 0;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #c37d86;
+}
+
+.index-headshot {
+  height: 250px;
+  width: 200px;
+}
+
+#my-card {
+  background-color: #462429;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
