@@ -1,12 +1,14 @@
-#language-accordion {
-    font-family: $roboto-stack;
-}
-
 .accordion-button {
     background-color: $accordion-button-bg;
     color:$accordion-button-color;
     &:not(.collapsed){
         background-color: $accordion-button-active-bg;
         color: $accordion-button-active-color;
+        &::after {
+            background-image: escape-svg($accordion-button-active-icon);
+        }
+    }
+    &::after {
+        background-image: escape-svg($accordion-button-icon);
     }
 }
